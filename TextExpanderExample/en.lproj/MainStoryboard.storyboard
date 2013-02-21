@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C2034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="SOMMViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This app is one big text view. Tap anywhere to start typing and try out some TextExpander snippets." translatesAutoresizingMaskIntoConstraints="NO" id="b3M-KX-4se">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b3M-KX-4se" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="2kt-dm-x9A"/>
+                            <constraint firstItem="b3M-KX-4se" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="HXe-fi-dGU"/>
+                            <constraint firstItem="b3M-KX-4se" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="OpO-PR-4Lf"/>
+                            <constraint firstItem="b3M-KX-4se" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="UD1-jx-Jxv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="b3M-KX-4se" id="i1f-Ud-Qii"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
