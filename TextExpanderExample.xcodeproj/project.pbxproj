@@ -12,15 +12,14 @@
 		C4C585CA16D5B19A0008B7C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585C916D5B19A0008B7C0 /* CoreGraphics.framework */; };
 		C4C585D016D5B19A0008B7C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4C585CE16D5B19A0008B7C0 /* InfoPlist.strings */; };
 		C4C585D216D5B19A0008B7C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585D116D5B19A0008B7C0 /* main.m */; };
-		C4C585D616D5B19A0008B7C0 /* SOMMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585D516D5B19A0008B7C0 /* SOMMAppDelegate.m */; };
+		C4C585D616D5B19A0008B7C0 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585D516D5B19A0008B7C0 /* MyAppDelegate.m */; };
 		C4C585D816D5B19A0008B7C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C585D716D5B19A0008B7C0 /* Default.png */; };
 		C4C585DA16D5B19A0008B7C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C585D916D5B19A0008B7C0 /* Default@2x.png */; };
 		C4C585DC16D5B19A0008B7C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C585DB16D5B19A0008B7C0 /* Default-568h@2x.png */; };
 		C4C585DF16D5B19A0008B7C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C585DD16D5B19A0008B7C0 /* MainStoryboard.storyboard */; };
-		C4C585E216D5B19A0008B7C0 /* SOMMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585E116D5B19A0008B7C0 /* SOMMViewController.m */; };
+		C4C585E216D5B19A0008B7C0 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585E116D5B19A0008B7C0 /* MyViewController.m */; };
 		C4C585EB16D5B2150008B7C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */; };
 		C4C585ED16D5B2F40008B7C0 /* Default.textexpander in Resources */ = {isa = PBXBuildFile; fileRef = C4C585EC16D5B2F40008B7C0 /* Default.textexpander */; };
-		C4DD1B8C16D5CEBF005DFD8A /* TextExpander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DD1B8B16D5CEBF005DFD8A /* TextExpander.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,17 +31,16 @@
 		C4C585CF16D5B19A0008B7C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4C585D116D5B19A0008B7C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C585D316D5B19A0008B7C0 /* TextExpanderExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextExpanderExample-Prefix.pch"; sourceTree = "<group>"; };
-		C4C585D416D5B19A0008B7C0 /* SOMMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOMMAppDelegate.h; sourceTree = "<group>"; };
-		C4C585D516D5B19A0008B7C0 /* SOMMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOMMAppDelegate.m; sourceTree = "<group>"; };
+		C4C585D416D5B19A0008B7C0 /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		C4C585D516D5B19A0008B7C0 /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
 		C4C585D716D5B19A0008B7C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C4C585D916D5B19A0008B7C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4C585DB16D5B19A0008B7C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C4C585DE16D5B19A0008B7C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C4C585E016D5B19A0008B7C0 /* SOMMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOMMViewController.h; sourceTree = "<group>"; };
-		C4C585E116D5B19A0008B7C0 /* SOMMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOMMViewController.m; sourceTree = "<group>"; };
+		C4C585E016D5B19A0008B7C0 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		C4C585E116D5B19A0008B7C0 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C4C585EC16D5B2F40008B7C0 /* Default.textexpander */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Default.textexpander; sourceTree = "<group>"; };
-		C4DD1B8B16D5CEBF005DFD8A /* TextExpander.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TextExpander.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DD1B8C16D5CEBF005DFD8A /* TextExpander.framework in Frameworks */,
 				C4C585EB16D5B2150008B7C0 /* AudioToolbox.framework in Frameworks */,
 				C4C585C616D5B19A0008B7C0 /* UIKit.framework in Frameworks */,
 				C4C585C816D5B19A0008B7C0 /* Foundation.framework in Frameworks */,
@@ -64,7 +61,6 @@
 		C4C585B916D5B19A0008B7C0 = {
 			isa = PBXGroup;
 			children = (
-				C4DD1B8B16D5CEBF005DFD8A /* TextExpander.framework */,
 				C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */,
 				C4C585EC16D5B2F40008B7C0 /* Default.textexpander */,
 				C4C585CB16D5B19A0008B7C0 /* TextExpanderExample */,
@@ -94,11 +90,11 @@
 		C4C585CB16D5B19A0008B7C0 /* TextExpanderExample */ = {
 			isa = PBXGroup;
 			children = (
-				C4C585D416D5B19A0008B7C0 /* SOMMAppDelegate.h */,
-				C4C585D516D5B19A0008B7C0 /* SOMMAppDelegate.m */,
+				C4C585D416D5B19A0008B7C0 /* MyAppDelegate.h */,
+				C4C585D516D5B19A0008B7C0 /* MyAppDelegate.m */,
 				C4C585DD16D5B19A0008B7C0 /* MainStoryboard.storyboard */,
-				C4C585E016D5B19A0008B7C0 /* SOMMViewController.h */,
-				C4C585E116D5B19A0008B7C0 /* SOMMViewController.m */,
+				C4C585E016D5B19A0008B7C0 /* MyViewController.h */,
+				C4C585E116D5B19A0008B7C0 /* MyViewController.m */,
 				C4C585CC16D5B19A0008B7C0 /* Supporting Files */,
 			);
 			path = TextExpanderExample;
@@ -187,8 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4C585D216D5B19A0008B7C0 /* main.m in Sources */,
-				C4C585D616D5B19A0008B7C0 /* SOMMAppDelegate.m in Sources */,
-				C4C585E216D5B19A0008B7C0 /* SOMMViewController.m in Sources */,
+				C4C585D616D5B19A0008B7C0 /* MyAppDelegate.m in Sources */,
+				C4C585E216D5B19A0008B7C0 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +269,6 @@
 		C4C585E616D5B19A0008B7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/teTouchSDK\"",
-					"\"$(SRCROOT)/../../teTouchSDK\"",
-					"\"$(SRCROOT)\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextExpanderExample/TextExpanderExample-Prefix.pch";
 				INFOPLIST_FILE = "TextExpanderExample/TextExpanderExample-Info.plist";
@@ -290,12 +280,6 @@
 		C4C585E716D5B19A0008B7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads/teTouchSDK\"",
-					"\"$(SRCROOT)/../../teTouchSDK\"",
-					"\"$(SRCROOT)\"",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextExpanderExample/TextExpanderExample-Prefix.pch";
 				INFOPLIST_FILE = "TextExpanderExample/TextExpanderExample-Info.plist";

@@ -1,14 +1,13 @@
 //
-//  SOMMAppDelegate.m
+//  MyAppDelegate.m
 //  TextExpanderExample
 //
 //  Created by Robert Cantoni on 2/20/13.
-//  Copyright (c) 2013 Smile Software. All rights reserved.
 //
 
-#import "SOMMAppDelegate.h"
+#import "MyAppDelegate.h"
 
-@implementation SOMMAppDelegate
+@implementation MyAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

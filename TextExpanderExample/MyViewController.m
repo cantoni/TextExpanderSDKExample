@@ -1,18 +1,17 @@
 //
-//  SOMMViewController.m
+//  MyViewController.m
 //  TextExpanderExample
 //
 //  Created by Robert Cantoni on 2/20/13.
-//  Copyright (c) 2013 Smile Software. All rights reserved.
 //
 
-#import "SOMMViewController.h"
+#import "MyViewController.h"
 
-@interface SOMMViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation SOMMViewController
+@implementation MyViewController
 
 - (void)viewDidLoad
 {
@@ -22,7 +21,6 @@
     self.textExpander = [[SMTEDelegateController alloc] init];
     [self.textView setDelegate:self.textExpander];
     [self.textExpander setNextDelegate:self];
-    
 }
 
 - (void)didReceiveMemoryWarning
