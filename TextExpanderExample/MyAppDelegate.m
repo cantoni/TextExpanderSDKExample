@@ -6,6 +6,7 @@
 //
 
 #import "MyAppDelegate.h"
+#import "MyViewController.h"
 
 @implementation MyAppDelegate
 
@@ -14,6 +15,15 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+	
+	MyViewController *viewController = (MyViewController *)self.window.rootViewController;
+	[viewController.textExpander handleFillCompletionURL:url];
+	
+	return YES;
+}
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

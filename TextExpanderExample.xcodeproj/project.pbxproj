@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4445A2E173B2DCA00108947 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4445A2A173B2DCA00108947 /* Icon.png */; };
+		C4445A31173B2DCA00108947 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4445A2D173B2DCA00108947 /* Icon@2x.png */; };
 		C4C585C616D5B19A0008B7C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585C516D5B19A0008B7C0 /* UIKit.framework */; };
 		C4C585C816D5B19A0008B7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585C716D5B19A0008B7C0 /* Foundation.framework */; };
 		C4C585CA16D5B19A0008B7C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585C916D5B19A0008B7C0 /* CoreGraphics.framework */; };
@@ -18,11 +20,14 @@
 		C4C585DC16D5B19A0008B7C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C585DB16D5B19A0008B7C0 /* Default-568h@2x.png */; };
 		C4C585DF16D5B19A0008B7C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C585DD16D5B19A0008B7C0 /* MainStoryboard.storyboard */; };
 		C4C585E216D5B19A0008B7C0 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C585E116D5B19A0008B7C0 /* MyViewController.m */; };
-		C4C585EB16D5B2150008B7C0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */; };
-		C4C585ED16D5B2F40008B7C0 /* Default.textexpander in Resources */ = {isa = PBXBuildFile; fileRef = C4C585EC16D5B2F40008B7C0 /* Default.textexpander */; };
+		C4CAAE2D17395B6E007B27DA /* TextExpander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CAAE2C17395B6E007B27DA /* TextExpander.framework */; };
+		C4CAAE2F17395B73007B27DA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CAAE2E17395B73007B27DA /* CoreText.framework */; };
+		C4CAAE3117395C9E007B27DA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CAAE3017395C9E007B27DA /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4445A2A173B2DCA00108947 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C4445A2D173B2DCA00108947 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		C4C585C216D5B19A0008B7C0 /* TextExpanderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextExpanderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C585C516D5B19A0008B7C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4C585C716D5B19A0008B7C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +44,9 @@
 		C4C585DE16D5B19A0008B7C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C4C585E016D5B19A0008B7C0 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		C4C585E116D5B19A0008B7C0 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C4C585EC16D5B2F40008B7C0 /* Default.textexpander */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Default.textexpander; sourceTree = "<group>"; };
+		C4CAAE2C17395B6E007B27DA /* TextExpander.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TextExpander.framework; sourceTree = "<group>"; };
+		C4CAAE2E17395B73007B27DA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C4CAAE3017395C9E007B27DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C585EB16D5B2150008B7C0 /* AudioToolbox.framework in Frameworks */,
+				C4CAAE3117395C9E007B27DA /* AudioToolbox.framework in Frameworks */,
+				C4CAAE2F17395B73007B27DA /* CoreText.framework in Frameworks */,
+				C4CAAE2D17395B6E007B27DA /* TextExpander.framework in Frameworks */,
 				C4C585C616D5B19A0008B7C0 /* UIKit.framework in Frameworks */,
 				C4C585C816D5B19A0008B7C0 /* Foundation.framework in Frameworks */,
 				C4C585CA16D5B19A0008B7C0 /* CoreGraphics.framework in Frameworks */,
@@ -61,8 +69,11 @@
 		C4C585B916D5B19A0008B7C0 = {
 			isa = PBXGroup;
 			children = (
-				C4C585EA16D5B2150008B7C0 /* AudioToolbox.framework */,
-				C4C585EC16D5B2F40008B7C0 /* Default.textexpander */,
+				C4CAAE3017395C9E007B27DA /* AudioToolbox.framework */,
+				C4CAAE2E17395B73007B27DA /* CoreText.framework */,
+				C4CAAE2C17395B6E007B27DA /* TextExpander.framework */,
+				C4445A2A173B2DCA00108947 /* Icon.png */,
+				C4445A2D173B2DCA00108947 /* Icon@2x.png */,
 				C4C585CB16D5B19A0008B7C0 /* TextExpanderExample */,
 				C4C585C416D5B19A0008B7C0 /* Frameworks */,
 				C4C585C316D5B19A0008B7C0 /* Products */,
@@ -171,7 +182,8 @@
 				C4C585DA16D5B19A0008B7C0 /* Default@2x.png in Resources */,
 				C4C585DC16D5B19A0008B7C0 /* Default-568h@2x.png in Resources */,
 				C4C585DF16D5B19A0008B7C0 /* MainStoryboard.storyboard in Resources */,
-				C4C585ED16D5B2F40008B7C0 /* Default.textexpander in Resources */,
+				C4445A2E173B2DCA00108947 /* Icon.png in Resources */,
+				C4445A31173B2DCA00108947 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +236,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -255,6 +271,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -269,9 +289,18 @@
 		C4C585E616D5B19A0008B7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextExpanderExample/TextExpanderExample-Prefix.pch";
 				INFOPLIST_FILE = "TextExpanderExample/TextExpanderExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,9 +309,18 @@
 		C4C585E716D5B19A0008B7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextExpanderExample/TextExpanderExample-Prefix.pch";
 				INFOPLIST_FILE = "TextExpanderExample/TextExpanderExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

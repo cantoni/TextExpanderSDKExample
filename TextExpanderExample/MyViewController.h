@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <TextExpander/SMTEDelegateController.h>
 
-@interface MyViewController : UIViewController <UITextViewDelegate>
+@interface MyViewController : UIViewController <UITextViewDelegate, SMTEFillDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (nonatomic) SMTEDelegateController *textExpander;
