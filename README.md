@@ -1,6 +1,6 @@
-This project provides a sample implementation of the TextExpander touch SDK. It’s implemented here as an iPhone app with a UITextView. On the iOS Simulator, it will expand a default set of snippets included in the app.
+This project provides a sample implementation of the TextExpander touch SDK 2.0. It’s implemented here as an iPhone app with a UITextView. On the iOS Simulator, it will expand a default set of snippets included in the app.
 
-This project requires the TextExpander touch framework, which can be found at http://smilesoftware.com/sdk
+This project requires the TextExpander touch framework, which can be found on Github at https://github.com/SmileSoftware/TextExpanderTouchSDK — more details about the SDK are available at http://smilesoftware.com/sdk
 
 License follows immediately beyond this paragraph.
 
